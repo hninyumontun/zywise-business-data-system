@@ -1,0 +1,10 @@
+streamlit
+pandas
+openpyxl
+fastapi
+uvicorn
+scikit-learn
+joblib
+sqlalchemy
+psycopg[binary]
+python-multipart
