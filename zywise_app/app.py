@@ -596,20 +596,31 @@ def render_dashboard() -> None:
 
 def render_upload() -> None:
     render_page_heading("Upload and Clean Data", "Bring your CSV or Excel files into ZyWise and review every cleaning step.")
-    upload = st.file_uploader("Upload a CSV or Excel file", type=["csv", "xlsx", "xls"])
-    if upload is not None:
+    uploads = st.file_uploader(
+        "Upload one or more CSV or Excel files",
+        type=["csv", "xlsx", "xls"],
+        accept_multiple_files=True,
+    )
+    if uploads:
         if st.button("Process uploaded file", type="primary"):
             try:
-                st.session_state.raw_df = read_uploaded_file(upload.name, upload.getvalue())
-                st.session_state.source_name = upload.name
-                st.session_state.uploaded_file_details = [{
-                    "File name": upload.name,
-                    "Type": upload.name.rsplit(".", 1)[-1].upper(),
-                    "Size": f"{len(upload.getvalue()) / 1024:.0f} KB",
-                    "Status": "Ready",
-                }]
+                frames = []
+                file_details = []
+                for upload in uploads:
+                    file_bytes = upload.getvalue()
+                    frames.append(read_uploaded_file(upload.name, file_bytes))
+                    file_details.append({
+                        "File name": upload.name,
+                        "Type": upload.name.rsplit(".", 1)[-1].upper(),
+                        "Size": f"{len(file_bytes) / 1024:.0f} KB",
+                        "Status": "Ready",
+                    })
+
+                st.session_state.raw_df = pd.concat(frames, ignore_index=True)
+                st.session_state.source_name = ", ".join(upload.name for upload in uploads)
+                st.session_state.uploaded_file_details = file_details
                 process_data()
-                st.success("File processed successfully.")
+                st.success(f"{len(uploads)} file(s) combined and processed successfully.")
             except Exception as error:  # Show a controlled user-facing error.
                 st.error(str(error))
     if st.session_state.raw_df is not None:
