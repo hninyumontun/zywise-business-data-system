@@ -1,0 +1,13 @@
+Order ID,Order date,Product,Category,Quantity,Unit price,Revenue
+O001,2026-01-05,Laptop,Electronics,1,1200,1200
+O002,2026-01-09,Mouse,Accessories,2,25,50
+O003,2026-01-15,Keyboard,Accessories,1,60,60
+O004,2026-01-24,Laptop,Electronics,1,1200,1200
+O005,2026-02-03,Mouse,Accessories,3,25,75
+O006,2026-02-11,Keyboard,Accessories,2,60,120
+O007,2026-02-18,Laptop,Electronics,1,1200,1200
+O008,2026-02-26,Mouse,Accessories,1,25,25
+O009,2026-03-04,Laptop,Electronics,1,1200,1200
+O010,2026-03-12,Keyboard,Accessories,1,60,60
+O011,2026-03-20,Mouse,Accessories,4,25,100
+O012,2026-03-28,Laptop,Electronics,2,1200,2400
