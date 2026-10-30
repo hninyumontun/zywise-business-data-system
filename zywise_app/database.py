@@ -28,6 +28,21 @@ def load_local_env() -> None:
 
 load_local_env()
 
+
+def load_streamlit_secrets() -> None:
+    """Use Streamlit Cloud secrets when the app is deployed online."""
+    try:
+        import streamlit as st
+
+        if "DATABASE_URL" in st.secrets:
+            os.environ["DATABASE_URL"] = str(st.secrets["DATABASE_URL"])
+    except Exception:
+        # Local development can continue using the project .env file.
+        pass
+
+
+load_streamlit_secrets()
+
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
     "postgresql+psycopg://postgres:postgres@/zywise?host=/tmp",
