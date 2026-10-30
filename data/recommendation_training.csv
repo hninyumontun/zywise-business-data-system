@@ -1,0 +1,127 @@
+order_id,order_date,product,category,quantity,unit_price,revenue,recommendation
+T001,2026-01-03,Zenbook Pro 01,Laptops,3,899,2697,Promote
+T002,2026-01-04,Zenbook Pro 02,Laptops,5,600,3000,Promote
+T003,2026-01-05,Zenbook Pro 03,Laptops,2,1300,2600,Promote
+T004,2026-01-06,Zenbook Pro 04,Laptops,4,900,3600,Promote
+T005,2026-01-07,Macbook Air 01,Laptops,6,500,3000,Promote
+T006,2026-01-08,Macbook Air 02,Laptops,8,450,3600,Promote
+T007,2026-01-09,Macbook Air 03,Laptops,10,200,2000,Promote
+T008,2026-01-10,Thinkpad Pro 01,Laptops,7,400,2800,Promote
+T009,2026-01-11,Thinkpad Pro 02,Laptops,9,300,2700,Promote
+T010,2026-01-12,Thinkpad Pro 03,Laptops,4,500,2000,Promote
+T011,2026-01-13,Gaming Laptop 01,Laptops,5,700,3500,Promote
+T012,2026-01-14,Gaming Laptop 02,Laptops,12,180,2160,Promote
+T013,2026-02-01,Wireless Mouse Bulk 01,Accessories,20,25,500,Increase Stock
+T014,2026-02-02,Wireless Mouse Bulk 02,Accessories,30,30,900,Increase Stock
+T015,2026-02-03,Wireless Mouse Bulk 03,Accessories,45,35,1575,Increase Stock
+T016,2026-02-04,Keyboard Bulk 01,Accessories,25,40,1000,Increase Stock
+T017,2026-02-05,Keyboard Bulk 02,Accessories,50,20,1000,Increase Stock
+T018,2026-02-06,Keyboard Bulk 03,Accessories,35,45,1575,Increase Stock
+T019,2026-02-07,Laptop Stand Bulk 01,Accessories,28,50,1400,Increase Stock
+T020,2026-02-08,Laptop Stand Bulk 02,Accessories,40,60,2400,Increase Stock
+T021,2026-02-09,USB Dock Bulk 01,Accessories,22,75,1650,Increase Stock
+T022,2026-02-10,USB Dock Bulk 02,Accessories,55,15,825,Increase Stock
+T023,2026-02-11,Webcam Bulk 01,Accessories,32,55,1760,Increase Stock
+T024,2026-02-12,Webcam Bulk 02,Accessories,26,80,2080,Increase Stock
+T025,2026-03-01,Keyboard Standard 01,Accessories,2,60,120,Maintain
+T026,2026-03-02,Keyboard Standard 02,Accessories,4,120,480,Maintain
+T027,2026-03-03,Keyboard Standard 03,Accessories,6,200,1200,Maintain
+T028,2026-03-04,Mouse Standard 01,Accessories,3,350,1050,Maintain
+T029,2026-03-05,Mouse Standard 02,Accessories,8,200,1600,Maintain
+T030,2026-03-06,Mouse Standard 03,Accessories,1,500,500,Maintain
+T031,2026-03-07,Laptop Bag Standard 01,Accessories,7,250,1750,Maintain
+T032,2026-03-08,Laptop Bag Standard 02,Accessories,5,180,900,Maintain
+T033,2026-03-09,HDMI Cable Standard 01,Accessories,2,250,500,Maintain
+T034,2026-03-10,HDMI Cable Standard 02,Accessories,10,150,1500,Maintain
+T035,2026-03-11,USB Hub Standard 01,Accessories,6,250,1500,Maintain
+T036,2026-03-12,USB Hub Standard 02,Accessories,4,400,1600,Maintain
+T037,2026-04-01,Zenbook Pro 05,Laptops,3,750,2250,Promote
+T038,2026-04-02,Zenbook Pro 06,Laptops,4,850,3400,Promote
+T039,2026-04-03,Macbook Air 04,Laptops,6,620,3720,Promote
+T040,2026-04-04,Macbook Air 05,Laptops,8,280,2240,Promote
+T041,2026-04-05,Thinkpad Pro 04,Laptops,5,680,3400,Promote
+T042,2026-04-06,Thinkpad Pro 05,Laptops,7,520,3640,Promote
+T043,2026-04-07,Gaming Laptop 04,Laptops,4,900,3600,Promote
+T044,2026-04-08,Gaming Laptop 05,Laptops,9,350,3150,Promote
+T045,2026-04-09,Ultrabook Pro 01,Laptops,5,760,3800,Promote
+T046,2026-04-10,Ultrabook Pro 02,Laptops,6,540,3240,Promote
+T047,2026-04-11,Creator Laptop 01,Laptops,3,980,2940,Promote
+T048,2026-04-12,Creator Laptop 02,Laptops,8,410,3280,Promote
+T049,2026-04-13,Office Laptop 01,Laptops,10,260,2600,Promote
+T050,2026-04-14,Office Laptop 02,Laptops,12,240,2880,Promote
+T051,2026-04-15,Student Laptop 01,Laptops,7,430,3010,Promote
+T052,2026-04-16,Student Laptop 02,Laptops,9,320,2880,Promote
+T053,2026-04-17,Business Laptop 01,Laptops,4,780,3120,Promote
+T054,2026-04-18,Business Laptop 02,Laptops,5,690,3450,Promote
+T055,2026-04-19,Workstation Laptop 01,Laptops,3,1000,3000,Promote
+T056,2026-04-20,Workstation Laptop 02,Laptops,6,580,3480,Promote
+T057,2026-04-21,Wireless Mouse Pro 01,Accessories,11,230,2530,Promote
+T058,2026-04-22,Wireless Mouse Pro 02,Accessories,8,310,2480,Promote
+T059,2026-04-23,Mechanical Keyboard Pro 01,Accessories,6,450,2700,Promote
+T060,2026-04-24,Mechanical Keyboard Pro 02,Accessories,5,520,2600,Promote
+T061,2026-04-25,USB Dock Pro 01,Accessories,7,390,2730,Promote
+T062,2026-04-26,USB Dock Pro 02,Accessories,9,280,2520,Promote
+T063,2026-04-27,Webcam Pro 01,Accessories,6,410,2460,Promote
+T064,2026-04-28,Webcam Pro 02,Accessories,10,260,2600,Promote
+T065,2026-04-29,Laptop Stand Pro 01,Accessories,8,360,2880,Promote
+T066,2026-04-30,Laptop Stand Pro 02,Accessories,5,600,3000,Promote
+T067,2026-05-01,Wireless Mouse Bulk 03,Accessories,20,25,500,Increase Stock
+T068,2026-05-02,Wireless Mouse Bulk 04,Accessories,24,30,720,Increase Stock
+T069,2026-05-03,Wireless Mouse Bulk 05,Accessories,28,35,980,Increase Stock
+T070,2026-05-04,Wireless Mouse Bulk 06,Accessories,32,40,1280,Increase Stock
+T071,2026-05-05,Keyboard Bulk 03,Accessories,36,22,792,Increase Stock
+T072,2026-05-06,Keyboard Bulk 04,Accessories,42,28,1176,Increase Stock
+T073,2026-05-07,Keyboard Bulk 05,Accessories,48,32,1536,Increase Stock
+T074,2026-05-08,Keyboard Bulk 06,Accessories,55,18,990,Increase Stock
+T075,2026-05-09,Laptop Stand Bulk 03,Accessories,22,55,1210,Increase Stock
+T076,2026-05-10,Laptop Stand Bulk 04,Accessories,30,60,1800,Increase Stock
+T077,2026-05-11,Laptop Stand Bulk 05,Accessories,38,45,1710,Increase Stock
+T078,2026-05-12,Laptop Stand Bulk 06,Accessories,46,35,1610,Increase Stock
+T079,2026-05-13,USB Dock Bulk 03,Accessories,25,70,1750,Increase Stock
+T080,2026-05-14,USB Dock Bulk 04,Accessories,34,48,1632,Increase Stock
+T081,2026-05-15,USB Dock Bulk 05,Accessories,44,25,1100,Increase Stock
+T082,2026-05-16,USB Dock Bulk 06,Accessories,52,20,1040,Increase Stock
+T083,2026-05-17,Webcam Bulk 03,Accessories,21,65,1365,Increase Stock
+T084,2026-05-18,Webcam Bulk 04,Accessories,27,75,2025,Increase Stock
+T085,2026-05-19,Webcam Bulk 05,Accessories,33,50,1650,Increase Stock
+T086,2026-05-20,Webcam Bulk 06,Accessories,41,38,1558,Increase Stock
+T087,2026-05-21,HDMI Cable Bulk 01,Accessories,26,20,520,Increase Stock
+T088,2026-05-22,HDMI Cable Bulk 02,Accessories,39,24,936,Increase Stock
+T089,2026-05-23,HDMI Cable Bulk 03,Accessories,47,30,1410,Increase Stock
+T090,2026-05-24,HDMI Cable Bulk 04,Accessories,58,16,928,Increase Stock
+T091,2026-05-25,USB Hub Bulk 03,Accessories,23,45,1035,Increase Stock
+T092,2026-05-26,USB Hub Bulk 04,Accessories,31,55,1705,Increase Stock
+T093,2026-05-27,USB Hub Bulk 05,Accessories,37,42,1554,Increase Stock
+T094,2026-05-28,USB Hub Bulk 06,Accessories,50,26,1300,Increase Stock
+T095,2026-05-29,Mouse Pad Bulk 01,Accessories,29,18,522,Increase Stock
+T096,2026-05-30,Mouse Pad Bulk 02,Accessories,43,20,860,Increase Stock
+T097,2026-06-01,Keyboard Standard 03,Accessories,1,90,90,Maintain
+T098,2026-06-02,Keyboard Standard 04,Accessories,2,140,280,Maintain
+T099,2026-06-03,Keyboard Standard 05,Accessories,4,180,720,Maintain
+T100,2026-06-04,Keyboard Standard 06,Accessories,6,210,1260,Maintain
+T101,2026-06-05,Mouse Standard 03,Accessories,3,160,480,Maintain
+T102,2026-06-06,Mouse Standard 04,Accessories,5,220,1100,Maintain
+T103,2026-06-07,Mouse Standard 05,Accessories,7,190,1330,Maintain
+T104,2026-06-08,Mouse Standard 06,Accessories,9,150,1350,Maintain
+T105,2026-06-09,Laptop Bag Standard 03,Accessories,2,280,560,Maintain
+T106,2026-06-10,Laptop Bag Standard 04,Accessories,4,320,1280,Maintain
+T107,2026-06-11,Laptop Bag Standard 05,Accessories,6,260,1560,Maintain
+T108,2026-06-12,Laptop Bag Standard 06,Accessories,8,175,1400,Maintain
+T109,2026-06-13,HDMI Cable Standard 03,Accessories,1,300,300,Maintain
+T110,2026-06-14,HDMI Cable Standard 04,Accessories,3,360,1080,Maintain
+T111,2026-06-15,HDMI Cable Standard 05,Accessories,5,240,1200,Maintain
+T112,2026-06-16,HDMI Cable Standard 06,Accessories,7,190,1330,Maintain
+T113,2026-06-17,USB Hub Standard 03,Accessories,2,260,520,Maintain
+T114,2026-06-18,USB Hub Standard 04,Accessories,4,300,1200,Maintain
+T115,2026-06-19,USB Hub Standard 05,Accessories,6,230,1380,Maintain
+T116,2026-06-20,USB Hub Standard 06,Accessories,8,160,1280,Maintain
+T117,2026-06-21,Laptop Sleeve Standard 01,Accessories,3,250,750,Maintain
+T118,2026-06-22,Laptop Sleeve Standard 02,Accessories,5,290,1450,Maintain
+T119,2026-06-23,Laptop Sleeve Standard 03,Accessories,7,210,1470,Maintain
+T120,2026-06-24,Laptop Sleeve Standard 04,Accessories,9,130,1170,Maintain
+T121,2026-06-25,USB Cable Standard 01,Accessories,2,200,400,Maintain
+T122,2026-06-26,USB Cable Standard 02,Accessories,4,275,1100,Maintain
+T123,2026-06-27,USB Cable Standard 03,Accessories,6,180,1080,Maintain
+T124,2026-06-28,USB Cable Standard 04,Accessories,8,145,1160,Maintain
+T125,2026-06-29,Desk Mat Standard 01,Accessories,3,300,900,Maintain
+T126,2026-06-30,Desk Mat Standard 02,Accessories,5,260,1300,Maintain
