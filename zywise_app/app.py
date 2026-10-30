@@ -1,11 +1,17 @@
 from __future__ import annotations
 
 import hashlib
+import sys
 from io import BytesIO
 from pathlib import Path
 
 import pandas as pd
 import streamlit as st
+
+# Keep the package importable when Streamlit launches this file directly.
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 
 from zywise_app.cleaning import clean_dataframe, read_uploaded_file
 from zywise_app.analytics import calculate_metrics
